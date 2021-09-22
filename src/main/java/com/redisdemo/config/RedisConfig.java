@@ -48,7 +48,7 @@ public class RedisConfig extends CachingConfigurerSupport{
     @Value("${spring.redis.jedis.pool.min-idle}")
     private int minIdle;
     
-//    private static final long DEFAULT_DURATION = 36;
+//    private static final long DEFAULT_DURATION = 3600;
     
     @Bean
 	public Jackson2JsonRedisSerializer< Object > jackson2JsonRedisSerializer () {
