@@ -2,5 +2,4 @@
 
 # A simple spring boot Redis Demo 
 Requierment
-
-  External Redis Server
+> External Redis Server
